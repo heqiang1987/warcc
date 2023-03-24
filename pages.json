@@ -1,0 +1,169 @@
+{
+	"easycom": {
+		"autoscan": true, // 是否开启自动扫描
+		"^xq(.*)": "@/xqUI/components/xq$1.vue"
+	},
+	"pages": [
+		{
+			"path": "pages/index",
+			"style": {
+				"navigationBarTitleText": "WAcaring",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/add",
+			"style": {
+				"navigationBarTitleText": "WAcaring",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/detail",
+			"style": {
+				"navigationBarTitleText": "WAcaring",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login",
+			"style": {
+				"navigationBarTitleText": "WAcaring",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register",
+			"style": {
+				"navigationBarTitleText": "WAcaring",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/qr",
+			"style": {
+				"navigationBarTitleText": "lastseen",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/message",
+			"style": {
+				"navigationBarTitleText": "WAcaring",
+				"navigationStyle": "custom"
+			}
+		},
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "lastseen",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/add",
+		// 	"style": {
+		// 		"navigationBarTitleText": "lastseen",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/detail",
+		// 	"style": {
+		// 		"navigationBarTitleText": "详情",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/apply",
+		// 	"style": {
+		// 		"navigationBarTitleText": "我要申报",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/login",
+		// 	"style": {
+		// 		"navigationBarTitleText": "登录",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/registered",
+		// 	"style": {
+		// 		"navigationBarTitleText": "注册",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/successful",
+		// 	"style": {
+		// 		"navigationBarTitleText": "注册成功",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/index/agreement",
+		// 	"style": {
+		// 		"navigationBarTitleText": "协议",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/user/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "用户中心",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/user/changepassword",
+		// 	"style": {
+		// 		"navigationBarTitleText": "修改登录密码",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/user/manage",
+		// 	"style": {
+		// 		"navigationBarTitleText": "申请项目管理",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/user/detail",
+		// 	"style": {
+		// 		"navigationBarTitleText": "项目详情",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// },
+		// {
+		// 	"path": "pages/user/plan",
+		// 	"style": {
+		// 		"navigationBarTitleText": "提交计划书",
+		// 		"navigationStyle": "custom"
+		// 	}
+		// }
+    ],
+	"permission": {
+	    "scope.userLocation": {
+	      "desc": "你的位置信息将用于小程序位置接口的效果展示" 
+	    }
+	  },
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "GraceUI",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}
